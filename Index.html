@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <!-- This Is Meta of description the website -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- The title of the Web Page -->
+  <title>BootStrap</title>
+  <link rel="stylesheet" href="style/bootstrap.css">
+  <link rel="stylesheet" href="style/main.css">
+  <link rel="stylesheet" href="style/all.min.css">
+  </head>
+  <body>
+      <!-- Navbar Desgin -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+          <a class="navbar-brand" href="#">Nature</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="div">
+            <i class="fa-light fa-mound"></i>
+          </div>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 justify-content-evenly  start-0 end-0 w-50 ">
+              <li class="nav-item">
+                <a class="nav-link active text-info" aria-current="page" href="#Home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#About">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Photography">Photography</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!-- header section (Home) -->
+      <header class="Home" id="Home">
+        <div class="overlay d-flex justify-content-center align-items-center text-center">
+        <div class="container">
+            <div class="row">
+                <div class="welcome text-light ">
+                    <h2>Hello <span class="text-info">People</span></h2>
+                    <p class="p w-75 text-center align-items-center m-auto ">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia culpa vitae facere suscipit, eius quia nisi quod modi laboriosam sunt! Nulla quo distinctio ipsam tempora consequuntur culpa non unde doloribus!</p>
+                </div>
+                <div class="welcome-apply">
+                    <button class="btn btn-outline-info rounded-pill px-4 fs-4">Welcome</button>
+                </div>
+            </div>
+          </div>    
+        </div> 
+      </header>  
+
+      <!-- Desgin section (About) -->
+      <section class="About py-5" id="About">
+        <div class="container">
+          <div class="Welcome-About text-center">
+            <h3 class="text-dark d-inline">About Me</h3>
+          </div>
+          <div class="About-content my-5">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="image-About ">
+                  <img class="w-100" src="comp.jpg" alt="">
+                </div>
+              </div>
+              <div class="col-md-6 ">
+                <div class="Desc-About px-2">
+                  <h4 class="py-3">Unique Natural Environment</h4>
+                  <p class="py-3 lead">Nature is the ultimate source of our living. Both living and non-living things include nature, and everyone is interdependent, which helps maintain the ecosystem. Plants, animals, and humans all depend on nature for their survival. It supplies oxygen, sunlight, soil, water, and other necessary components.
+                  </p>
+                  <p class="py-3 lead">Nature is made of everything we see around us – trees, flowers, plants, animals, sky, mountains, forests and more. Human beings depend on nature to stay alive. Nature helps us breathe, gives us food, water, shelter, medicines, and clothes. We find many colors in nature which make the Earth beautiful.</p>
+                  <p class="lead">Animals, fish and insects also get their food and shelter from nature. Different trees grow up due to sunlight and water provided by nature. Humans should stop causing harm to the elements of nature for their needs. Nature is very important to maintain the growth and balance of life on earth.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+      </section>
+
+          <!-- Desgin section (Photography -->
+      <section class="Photography py-5" id="Photography">
+        <div class="container">
+          <div class="Text-Gallery text-center">
+            <h3 class="text-muted d-inline"> Gallery</h3>
+          </div>
+          <div class="Photography-Gallery">
+            <!-- {{N-Photography sectors}}} -->
+            <ul class="nav nav-pills mb-3 my-5 justify-content-center bg-body" id="pills-tab" role="tablist">
+              <li class="nav-item" role="presentation">
+                <button class="nav-link active" id="pills-Sector-1-tab" data-bs-toggle="pill" data-bs-target="#pills-Sector-1" type="button" role="tab" aria-controls="pills-Sector-1" aria-selected="true">Sector-1</button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button class="nav-link" id="pills-Sector-2-tab" data-bs-toggle="pill" data-bs-target="#pills-Sector-2" type="button" role="tab" aria-controls="pills-Sector-2" aria-selected="false">Sector-2</button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button class="nav-link" id="pills-Sector-3-tab" data-bs-toggle="pill" data-bs-target="#pills-Sector-3" type="button" role="tab" aria-controls="pills-Sector-3" aria-selected="false">Sector-3</button>
+              </li>
+            </ul>
+            <div class="tab-content" id="pills-tabContent">
+              <div class="tab-pane fade show active" id="pills-Sector-1" role="tabpanel" aria-labelledby="pills-Sector-1-tab" tabindex="0">
+                <div class="row">
+                  <div class="col-md-3 mb-3">
+                    <div class="item shadow-lg rounded-3 overflow-hidden ">
+                    <div class="item-image">
+                      <img class="w-100" src="Photo 1/11.jpg" alt="">
+                    </div>
+                    <div class="item-Desc ">
+                      <h4>Bell Arbre</h4>
+                    </div>  
+                    </div>
+                  </div>
+                  <div class="col-md-3 mb-3">
+                    <div class="item shadow-lg rounded-3 overflow-hidden ">
+                    <div class="item-image">
+                      <img class="w-100" src="Photo 1/12.jpg" alt="">
+                    </div>
+                    <div class="item-Desc ">
+                      <h4>Bell Arbre</h4>
+                    </div>  
+                    </div>
+                  </div>
+                  <div class="col-md-3 mb-3">
+                    <div class="item shadow-lg rounded-3 overflow-hidden ">
+                    <div class="item-image">
+                      <img class="w-100" src="Photo 1/13.jpg" alt="">
+                    </div>
+                    <div class="item-Desc ">
+                      <h4>Bell Arbre</h4>
+                    </div>  
+                    </div>
+                  </div>
+                  <div class="col-md-3 mb-3">
+                    <div class="item shadow-lg rounded-3 overflow-hidden ">
+                    <div class="item-image">
+                      <img class="w-100" src="Photo 1/14.jpg" alt="">
+                    </div>
+                    <div class="item-Desc ">
+                      <h4>Bell Arbre</h4>
+                    </div>  
+                    </div>
+                  </div>
+                  <div class="col-md-3 mb-3">
+                    <div class="item shadow-lg rounded-3 overflow-hidden ">
+                    <div class="item-image">
+                      <img class="w-100" src="Photo 1/15.jpg" alt="">
+                    </div>
+                    <div class="item-Desc ">
+                      <h4>Bell Arbre</h4>
+                    </div>  
+                    </div>
+                  </div>
+                  <div class="col-md-3 mb-3">
+                    <div class="item shadow-lg rounded-3 overflow-hidden ">
+                    <div class="item-image">
+                      <img class="w-100" src="Photo 1/16.jpg" alt="">
+                    </div>
+                    <div class="item-Desc ">
+                      <h4>Bell Arbre</h4>
+                    </div>  
+                    </div>
+                  </div>
+                  <div class="col-md-3 mb-3">
+                    <div class="item shadow-lg rounded-3 overflow-hidden ">
+                    <div class="item-image">
+                      <img class="w-100" src="Photo 1/17.jpg" alt="">
+                    </div>
+                    <div class="item-Desc ">
+                      <h4>Bell Arbre</h4>
+                    </div>  
+                    </div>
+                  </div>
+                  <div class="col-md-3 mb-3">
+                    <div class="item shadow-lg rounded-3 overflow-hidden ">
+                    <div class="item-image">
+                      <img class="w-100" src="Photo 1/18.jpg" alt="">
+                    </div>
+                    <div class="item-Desc ">
+                      <h4>Bell Arbre</h4>
+                    </div>  
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane fade" id="pills-Sector-2" role="tabpanel" aria-labelledby="pills-Sector-2-tab" tabindex="0">
+                <div class="row">
+                  <div class="col-md-4 mb-3">
+                    <div class="item shadow-lg rounded-3 overflow-hidden ">
+                    <div class="item-image">
+                      <img class="w-100" src="Photo 2/1.jpg" alt="">
+                    </div>
+                    <div class="item-Desc ">
+                      <h4>Bosc Natural</h4>
+                    </div>  
+                    </div>
+                  </div>
+                  <div class="col-md-4 mb-3">
+                    <div class="item shadow-lg rounded-3 overflow-hidden ">
+                    <div class="item-image">
+                      <img class="w-100" src="Photo 2/2.jpg" alt="">
+                    </div>
+                    <div class="item-Desc ">
+                      <h4>Bosc Natural</h4>
+                    </div>  
+                    </div>
+                  </div>
+                  <div class="col-md-4 mb-3">
+                    <div class="item shadow-lg rounded-3 overflow-hidden ">
+                    <div class="item-image">
+                      <img class="w-100" src="Photo 2/3.jpg" alt="">
+                    </div>
+                    <div class="item-Desc ">
+                      <h4>Bosc Natural</h4>
+                    </div>  
+                    </div>
+                  </div>
+                  <div class="col-md-4 mb-3">
+                    <div class="item shadow-lg rounded-3 overflow-hidden ">
+                    <div class="item-image">
+                      <img class="w-100" src="Photo 2/4.jpg" alt="">
+                    </div>
+                    <div class="item-Desc ">
+                      <h4>Bosc Natural</h4>
+                    </div>  
+                    </div>
+                  </div>
+                  <div class="col-md-4 mb-3">
+                    <div class="item shadow-lg rounded-3 overflow-hidden ">
+                    <div class="item-image">
+                      <img class="w-100" src="Photo 2/5.jpg" alt="">
+                    </div>
+                    <div class="item-Desc ">
+                      <h4>Bosc Natural</h4>
+                    </div>  
+                    </div>
+                  </div>
+                  <div class="col-md-4 mb-3">
+                    <div class="item shadow-lg rounded-3 overflow-hidden ">
+                    <div class="item-image">
+                      <img class="w-100" src="Photo 2/6.jpg" alt="">
+                    </div>
+                    <div class="item-Desc ">
+                      <h4>Bosc Natural</h4>
+                    </div>  
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane fade" id="pills-Sector-3" role="tabpanel" aria-labelledby="pills-Sector-3-tab" tabindex="0">
+                <div class="row">
+                  <div class="col-md-4 mb-3">
+                    <div class="item shadow-lg rounded-3 overflow-hidden ">
+                    <div class="item-image">
+                      <img class="w-100" src="Photo 3/21.jpg" alt="">
+                    </div>
+                    <div class="item-Desc ">
+                      <h4>Flors Alegres</h4>
+                    </div>  
+                    </div>
+                  </div>
+                  <div class="col-md-4 mb-3">
+                    <div class="item shadow-lg rounded-3 overflow-hidden ">
+                    <div class="item-image">
+                      <img class="w-100" src="Photo 3/22.jpg" alt="">
+                    </div>
+                    <div class="item-Desc ">
+                      <h4>Flors Alegres</h4>
+                    </div>  
+                    </div>
+                  </div>
+                  <div class="col-md-4 mb-3">
+                    <div class="item shadow-lg rounded-3 overflow-hidden ">
+                    <div class="item-image">
+                      <img class="w-100" src="Photo 3/23.jpg" alt="">
+                    </div>
+                    <div class="item-Desc ">
+                      <h4>Flors Alegres</h4>
+                    </div>  
+                    </div>
+                  </div>
+                  <div class="col-md-4 mb-3">
+                    <div class="item shadow-lg rounded-3 overflow-hidden ">
+                    <div class="item-image">
+                      <img class="w-100" src="Photo 3/24.jpg" alt="">
+                    </div>
+                    <div class="item-Desc ">
+                      <h4>Flors Alegres</h4>
+                    </div>  
+                    </div>
+                  </div>
+                  <div class="col-md-4 mb-3">
+                    <div class="item shadow-lg rounded-3 overflow-hidden ">
+                    <div class="item-image">
+                      <img class="w-100" src="Photo 3/25.jpg" alt="">
+                    </div>
+                    <div class="item-Desc ">
+                      <h4>Flors Alegres</h4>
+                    </div>  
+                    </div>
+                  </div>
+                  <div class="col-md-4 mb-3">
+                    <div class="item shadow-lg rounded-3 overflow-hidden ">
+                    <div class="item-image">
+                      <img class="w-100" src="Photo 3/26.jpg" alt="">
+                    </div>
+                    <div class="item-Desc ">
+                      <h4>Flors Alegres</h4>
+                    </div>  
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div> 
+        </div>  
+      </section>
+
+
+        <!-- Desgin section (Contact) -->
+      <section class="Contact py-5 bg-gradient" id="Contact">
+        <div class="container">
+          <div class="Text-Contact text-center">
+            <h3 class="text-muted d-inline"> Contact</h3>
+          </div>
+          <div class="Contact-form w-100 m-auto bg-light shadow-lg rounded-3 p-5 my-5">
+            <div class="Form">
+              <label for="title-form">Title</label>
+              <input type="text" class="form-control w-75 mb-3" id="title-form">
+              <label for="Subject-form">Subject</label>
+              <input type="text" class="form-control w-75 mb-3" id="Subject-form">
+              <textarea name="" id="" cols="30" rows="10" class="form-control" placeholder="Description..."></textarea>
+              <button class="btn btn-outline-info btn-lg my-4">Create</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Desgin footer -->
+      <footer class="bg-dark">
+        <div class="info d-flex justify-content-center text-light py-2">
+          <h6>CopyRight @ <span class="text-info" >Site_MoKhaled</span></h6>
+        </div>
+      </footer>
+
+
+        <script src="bootstrap.bundle.min.js"></script>
+  </body>
